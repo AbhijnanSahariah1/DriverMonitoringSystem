@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Monitoring & Accident Alert System - Science Project</title>
+    <link rel="stylesheet" href="driver.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">🛡️</div>
+                <span>SafeDrive Monitor</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#cost">Cost</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#future">Future Plans</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Driver Monitoring &<br><span class="highlight">Accident Alert System</span></h1>
+        <p>A smart safety companion that keeps drivers alert and sends instant help when accidents happen</p>
+    </section>
+
+    <section id="about" class="section white-section">
+        <h2 class="section-title">About This Project</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Every year, thousands of accidents happen because drivers fall asleep or get distracted while driving. This project tackles that exact problem head-on.</p>
+                <p>We've built a system that keeps a constant eye on the driver using sensors. If it notices signs of drowsiness or detects a sudden crash, it springs into action immediately - alerting emergency contacts and providing the exact location where help is needed.</p>
+                <p>Think of it as a vigilant co-pilot that never gets tired, never gets distracted, and is always ready to help when things go wrong.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card blue">
+                    <div class="stat-icon">👁️</div>
+                    <h3>24/7</h3>
+                    <p>Continuous Monitoring</p>
+                </div>
+                <div class="stat-card green">
+                    <div class="stat-icon">⚠️</div>
+                    <h3>Instant</h3>
+                    <p>Emergency Alerts</p>
+                </div>
+                <div class="stat-card orange">
+                    <div class="stat-icon">📍</div>
+                    <h3>Precise</h3>
+                    <p>Location Tracking</p>
+                </div>
+                <div class="stat-card pink">
+                    <div class="stat-icon">🛡️</div>
+                    <h3>Safe</h3>
+                    <p>Reliable Protection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Driver Monitoring</h3>
+                    <p>The eye blink sensor continuously tracks the driver's eyes. If it detects prolonged eye closure or irregular blinking patterns, it knows something's wrong.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Motion Detection</h3>
+                    <p>The MPU6050 accelerometer feels every movement of the vehicle. During normal driving, movements are smooth. But during an accident, there's a sudden, sharp change that the sensor catches instantly.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Processing & Decision</h3>
+                    <p>Arduino Nano is constantly analyzing data from all sensors. When it spots danger signs - whether drowsiness or a crash - it makes split-second decisions.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Alert Activation</h3>
+                    <p>The moment danger is confirmed, multiple things happen at once: the system triggers alerts, the motor provides physical warnings, and emergency protocols begin.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h3>Emergency Response</h3>
+                    <p>The GSM module sends SMS alerts to pre-programmed emergency contacts. The GPS module provides the exact coordinates so help can reach the right location without any delay.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="components" class="section white-section">
+        <h2 class="section-title">Components Used</h2>
+        <p style="text-align: center; color: #64748b; margin-bottom: 3rem; font-size: 1.1rem;">Each component plays a crucial role in keeping drivers safe</p>
+        <div class="components-grid">
+            <div class="component-card">
+                <div class="component-icon">🖥️</div>
+                <h3>Arduino Nano</h3>
+                <p>The brain of our system - processes all sensor data and makes quick decisions</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">👁️</div>
+                <h3>Eye Blink Sensor</h3>
+                <p>Watches the driver constantly to detect drowsiness or distraction</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">📡</div>
+                <h3>GSM Module</h3>
+                <p>Sends emergency alerts via SMS when an accident is detected</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">📍</div>
+                <h3>GPS Module</h3>
+                <p>Tracks exact location to send help to the right place</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">⚡</div>
+                <h3>MPU6050 Accelerometer</h3>
+                <p>Detects sudden movements and impacts indicating accidents</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">🛡️</div>
+                <h3>Relay Module 5V</h3>
+                <p>Controls the motor and other electronic components safely</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">⚙️</div>
+                <h3>Gear Motor</h3>
+                <p>Provides physical feedback or alert mechanisms</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">🔋</div>
+                <h3>Lithium Battery 3.7V</h3>
+                <p>Powers the entire system independently</p>
+            </div>
+            <div class="component-card">
+                <div class="component-icon">⚡</div>
+                <h3>LM2596 Power Supply</h3>
+                <p>Regulates voltage to keep everything running smoothly</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cost" class="section">
+        <h2 class="section-title">Project Cost Breakdown</h2>
+        <div class="cost-grid">
+            <div class="cost-card current">
+                <div class="cost-header">
+                    <span class="cost-icon">💰</span>
+                    <span>Current Version</span>
+                </div>
+                <div class="cost-item">
+                    <span>Arduino Nano</span>
+                    <span><strong>₹350</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>Eye Blink Sensor</span>
+                    <span><strong>₹200</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>GSM Module</span>
+                    <span><strong>₹450</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>GPS Module</span>
+                    <span><strong>₹400</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>MPU6050 Accelerometer</span>
+                    <span><strong>₹150</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>Relay Module 5V</span>
+                    <span><strong>₹80</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>Gear Motor</span>
+                    <span><strong>₹120</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>Lithium Battery 3.7V</span>
+                    <span><strong>₹180</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>LM2596 Power Supply</span>
+                    <span><strong>₹70</strong></span>
+                </div>
+                <div class="cost-total">
+                    <span>Total Cost</span>
+                    <span style="color: #0284c7;">₹2,000</span>
+                </div>
+            </div>
+
+            <div class="cost-card future">
+                <div class="cost-header">
+                    <span class="cost-icon">📈</span>
+                    <span>Future Version</span>
+                </div>
+                <div class="cost-item">
+                    <span>All Current Components</span>
+                    <span><strong>₹2,000</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>HD Camera Module</span>
+                    <span><strong>₹800</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>Eye Blink Sensor (Remove)</span>
+                    <span style="color: #6ee7b7;"><strong>-₹200</strong></span>
+                </div>
+                <div class="cost-item">
+                    <span>Processing Board Upgrade</span>
+                    <span><strong>₹500</strong></span>
+                </div>
+                <div class="cost-total">
+                    <span>Estimated Total</span>
+                    <span>₹3,100</span>
+                </div>
+                <p class="cost-note">The camera will provide much more accurate detection using AI and can also record footage for evidence</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="section white-section">
+        <h2 class="section-title">Why This System Matters</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🛡️</div>
+                <h3>Saves Lives</h3>
+                <p>Prevents accidents by alerting drowsy drivers before it's too late</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⚠️</div>
+                <h3>Quick Emergency Response</h3>
+                <p>Automatically sends location and alerts to emergency contacts during accidents</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">👁️</div>
+                <h3>Real-time Monitoring</h3>
+                <p>Continuously watches driver behavior without any breaks or distractions</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">💰</div>
+                <h3>Affordable Solution</h3>
+                <p>Built with cost-effective components making it accessible to everyone</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">✅</div>
+                <h3>Easy to Install</h3>
+                <p>Simple setup that can be fitted in any vehicle without major modifications</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⚡</div>
+                <h3>Always Alert</h3>
+                <p>Works 24/7 without getting tired, unlike human co-passengers</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="future" class="section">
+        <h2 class="section-title">Future Plans</h2>
+        <div class="future-grid">
+            <div class="future-card camera">
+                <div class="future-header">
+                    <div class="future-icon">📷</div>
+                    <h3>Camera Integration</h3>
+                </div>
+                <p style="color: #64748b;">We're planning to replace the eye blink sensor with an HD camera. This is a game-changer because:</p>
+                <ul class="future-list">
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Uses AI to detect drowsiness with much higher accuracy</span>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Can detect distraction, phone usage, and other dangerous behaviors</span>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Records video evidence that can be useful after accidents</span>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Works in various lighting conditions, even at night</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="future-card additional">
+                <h3 style="margin-bottom: 2rem;">Additional Improvements</h3>
+                <div class="improvement-section">
+                    <h4>Cloud Connectivity</h4>
+                    <p>Store trip data and incidents in the cloud so families can check on their loved ones remotely</p>
+                </div>
+                <div class="improvement-section">
+                    <h4>Mobile App</h4>
+                    <p>A companion app that shows real-time status, trip history, and sends notifications</p>
+                </div>
+                <div class="improvement-section">
+                    <h4>Voice Alerts</h4>
+                    <p>Add a speaker to give verbal warnings to the driver before emergency measures kick in</p>
+                </div>
+                <div class="improvement-section">
+                    <h4>Heart Rate Monitoring</h4>
+                    <p>Integrate biometric sensors to detect medical emergencies like heart attacks while driving</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <div class="footer-logo-icon">🛡️</div>
+            <span>SafeDrive Monitor</span>
+        </div>
+        <p>A science project dedicated to making roads safer by preventing drowsy driving accidents and ensuring quick emergency response when needed most.</p>
+        <p class="footer-note">Built with care for safer journeys ahead</p>
+    </footer>
+</body>
+</html>
