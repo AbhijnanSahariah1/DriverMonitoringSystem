@@ -1,27 +1,84 @@
-# 💫 About Me:
-I’m currently working on improving my web development skills and building small real-world projects.<br>I’m looking to collaborate on basic to intermediate web projects.<br>I’m looking for help with learning backend and API integration step by step.<br>I’m currently learning JavaScript deeper and exploring Python.<br>Ask me about HTML, CSS, JavaScript basics, VS Code setup, or project structuring.<br>Fun fact: I enjoy making simple things look aesthetic and clean.
+<p align="center">
+  <img src="https://i.ibb.co/4VJZvxP/Cyber-Banner.png" alt="header" />
+</p>
 
+# 👋 Hey, I'm **Abhijnan Sahariah**  
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/@Abhijnan) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:AbhijnanSahariah18@gmail.com) 
+I’m a student and self-taught developer focusing on building clean and real-world web projects.  
+Currently leveling up **JavaScript** and exploring **Python** + backend fundamentals.
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AbhijnanSahariah1&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AbhijnanSahariah1&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbhijnanSahariah1&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=AbhijnanSahariah1&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=AbhijnanSahariah1&limit=5&theme=dark&combine_all_yearly_contributions=true)
+### 🎯 Goals
+- Learn backend and APIs step-by-step  
+- Build projects that feel real, not just school demos  
+- Contribute to open-source and collaborate  
 
 ---
-[![](https://visitcount.itsvg.in/api?id=AbhijnanSahariah1&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🌐 Socials
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/@Abhijnan)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:AbhijnanSahariah18@gmail.com)
+
+![Profile Views](https://komarev.com/ghpvc/?username=AbhijnanSahariah1&color=blueviolet)
+![Followers](https://img.shields.io/github/followers/AbhijnanSahariah1?style=social)
+![Stars](https://img.shields.io/github/stars/AbhijnanSahariah1?style=social)
+
+---
+
+## 🧠 Tech Stack (Skills)
+
+| Language / Tool | Badge |
+|---|---|
+| **HTML** | ![HTML](https://img.shields.io/badge/HTML5-E44D26?style=for-the-badge&logo=html5&logoColor=white) |
+| **CSS** | ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
+| **JavaScript** | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| **Python** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| **C++** | ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
+| **Vercel** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
+| **Netlify** | ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) |
+| **VS Code** | ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) |
+
+---
+
+## 🎨 Animated Tech Icons
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,cpp,vercel,netlify,vscode,github" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Live Demo | Repo |
+|--------|---------|------|
+| **DevHub** | ✅ Portfolio Hub | https://github.com/AbhijnanSahariah1/DevHub |
+| **Driver Monitoring System** | 🟡 Hardware IOT Project | https://github.com/AbhijnanSahariah1/DriverMonitoringSystem |
+| **Multi-Game** | 🎮 Simple Fun Games | https://github.com/AbhijnanSahariah1/Multi-Game |
+
+> Want me to add project **showcase cards**? I can generate them too.
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AbhijnanSahariah1&show_icons=true&theme=tokyonight" />
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhijnanSahariah1&theme=tokyonight" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhijnanSahariah1&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=AbhijnanSahariah1&theme=radical&margin-w=10&row=1)
+
+---
+
+## ✍️ Random Dev Quote
+> “The best code is written when you understand the problem, not the language.”
+
+---
+
+### ⭐ If you like my work, consider giving a star to my repos :)
