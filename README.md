@@ -2,7 +2,7 @@
   <img src="https://i.ibb.co/4VJZvxP/Cyber-Banner.png" alt="header" />
 </p>
 
-# 👋 Hey, I'm **Abhijnan Sahariah**  
+# 👋 Hey, I'm **Abhijnan Sahariah1**  
 
 I’m a student and self-taught developer focusing on building clean and real-world web projects.  
 Currently leveling up **JavaScript** and exploring **Python** + backend fundamentals.
